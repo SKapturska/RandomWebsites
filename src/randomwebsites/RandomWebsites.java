@@ -6,7 +6,8 @@ public class RandomWebsites {
         //Website web = new Website();
         //PhotoGalleryWebsite pgWeb = new PhotoGalleryWebsite();
         //InformationWebsite iWeb = new InformationWebsite();
-        ContactWebsite contactWeb = new ContactWebsite();
+        //ContactWebsite contactWeb = new ContactWebsite();
+        NewsWebsite newsWeb = new NewsWebsite();
     }
 
 }
