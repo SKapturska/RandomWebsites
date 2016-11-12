@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class PhotoGalleryWebsite extends Website {
 
-
     public PhotoGalleryWebsite() {
         title = "Galeria zdjęć";
         titleWebsite();
@@ -13,7 +12,6 @@ public class PhotoGalleryWebsite extends Website {
         System.out.println(sb);
         writeToFile();
     }
-
 
     private void bodyPhotoGalery() {
         int index = sb.indexOf("<body>");
@@ -32,9 +30,9 @@ public class PhotoGalleryWebsite extends Website {
                 index = r.nextInt(photos.length);
             } while (photos[index] == false);
             photos[index] = false;
-            photosBuffer.append("\n<img src= \"kot" + index + ".jpg\" width=\"700px\" height=\"400px \"border = \"10\"> ");
-            //photosBuffer.append("\n <img src= \"D:\\Studia\\5 sem\\njpo\\RandomWebsites\\kot" + index + ".jpg\" width=\"700px\" height=\"400px\">");
-            //images.append("<img src= \"" + files[rng] + "\" width=\"650px\" height=\"450px\">");
+            photosBuffer.append("\n<img src= \"kot" + index + ".jpg\" border = \"10\"> ");
+            //photosBuffer.append("\n<img src= \"kot" + index + ".jpg\" width=\"700px\" height=\"400px \"border = \"10\"> ");
+
         }
         return photosBuffer;
     }

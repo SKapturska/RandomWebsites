@@ -42,7 +42,7 @@ public class InformationWebsite extends Website {
 
     private StringBuilder randomWords() {
         Random r = new Random();
-        int wordsCount = r.nextInt(10000)+200;
+        int wordsCount = r.nextInt(10000) + 200;
         StringBuilder wordsBuffer = new StringBuilder("");
         for (int i = 0; i < wordsCount; i++) {
             int wordNumber = r.nextInt(words.length - 1);
