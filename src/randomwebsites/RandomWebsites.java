@@ -4,8 +4,9 @@ public class RandomWebsites {
 
     public static void main(String[] args) {
         //Website web = new Website();
-        PhotoGalleryWebsite pgweb = new PhotoGalleryWebsite();
-        //InformationWebsite iweb = new InformationWebsite();
+        //PhotoGalleryWebsite pgWeb = new PhotoGalleryWebsite();
+        //InformationWebsite iWeb = new InformationWebsite();
+        ContactWebsite contactWeb = new ContactWebsite();
     }
 
 }
